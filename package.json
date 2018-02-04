@@ -1,9 +1,9 @@
 {
-  "name": "asm-analog-watch",
-  "version": "1.0.0",
+  "name": "asm-analog-clock",
+  "version": "0.0.3",
   "description": "asm-analog-watch React component",
   "main": "public/electron.js",
-  "module": "es/index.js",
+  "module": "es/component/ASManalogClock.js",
   "engines": {
     "node": ">=6.0.0"
   },
@@ -14,11 +14,10 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
-    "clean": "nwb clean-module && nwb clean-demo",
+    "build": "nwb build-react-component --copy-files",
+    "clean": "nwb clean-module",
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server",
     "electron-start": "react-scripts start",
     "dev": "concurrently \"cross-env BROWSER=none yarn electron-start\" \"wait-on http://localhost:3000 && electron .\""
   },

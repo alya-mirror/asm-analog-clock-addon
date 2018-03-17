@@ -1,6 +1,6 @@
 {
   "name": "asm-analog-clock",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "asm-analog-watch React component",
   "main": "public/electron.js",
   "module": "es/component/ASManalogClock.js",

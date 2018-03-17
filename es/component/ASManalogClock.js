@@ -21,7 +21,7 @@ var ASManalogClock = function (_Component) {
     return React.createElement(
       'div',
       null,
-      React.createElement(AnalogClock, { theme: Themes.light, width: width })
+      React.createElement(AnalogClock, { theme: Themes.lime, width: width })
     );
   };
 

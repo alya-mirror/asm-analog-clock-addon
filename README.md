@@ -14,3 +14,40 @@ Describe asm-analog-watch here.
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
+
+## development
+To run the component as an electron react component:
+
+```
+yarn dev
+```
+
+
+## building
+
+
+```
+yarn build
+```
+
+## cleaning
+
+
+```
+yarn clean
+```
+
+
+## testing
+
+
+```
+yarn test
+```
+
+## publishing
+
+
+```
+npm publish
+```

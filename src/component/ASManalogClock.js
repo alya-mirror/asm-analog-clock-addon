@@ -6,7 +6,7 @@ class ASManalogClock extends Component {
 
   render() {
     return <div>
-      <AnalogClock theme={Themes.light} width={width}/>
+      <AnalogClock theme={Themes.lime} width={width}/>
     </div>
   }
 }

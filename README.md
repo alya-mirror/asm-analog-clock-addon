@@ -49,5 +49,5 @@ yarn test
 
 
 ```
-npm publish
+yarn publish
 ```

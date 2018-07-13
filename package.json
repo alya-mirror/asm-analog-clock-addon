@@ -24,8 +24,9 @@
     "electron-log": "^2.2.13",
     "electron-updater": "^2.17.8",
     "node-notifier": "^5.1.2",
-    "react-analog-clock": "^2.0.0",
-    "socket.io-client": "^2.1.0"
+    "react-analog-clock": "^2.1.0",
+    "socket.io-client": "^2.1.0",
+    "w3-css": "^4.1.0"
   },
   "peerDependencies": {
     "react": "16.x"

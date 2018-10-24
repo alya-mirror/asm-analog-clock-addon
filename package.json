@@ -1,6 +1,6 @@
 {
   "name": "@alya-mirror/asm-analog-clock-addon",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "description": "asm-analog-watch React component",
   "main": "public/electron.js",
   "module": "es/component/ASManalogClock.js",
@@ -26,7 +26,6 @@
     "node-notifier": "^5.1.2",
     "react-analog-clock": "^2.1.0",
     "socket.io-client": "^2.1.0",
-    "w3-css": "^4.1.0"
   },
   "peerDependencies": {
     "react": "16.x"

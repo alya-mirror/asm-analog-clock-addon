@@ -1,2 +1,8 @@
 
 node_modules/
+
+es/
+
+lib/
+
+yarn-error\.log

@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import AnalogClock, {Themes} from 'react-analog-clock';
 import io from 'socket.io-client';
-import 'w3-css/w3.css';
 
 class ASManalogClock extends Component {
 
@@ -10,9 +9,8 @@ class ASManalogClock extends Component {
     let self = this;
     this.state = {
       settings: {
-        width: 400,
-        theme: Themes.lime,
-        position: "w3-display-topright"
+        width: 500,
+        theme: Themes.lime
       }
     };
     this.socket = io('http://localhost:3100');
@@ -50,8 +48,7 @@ class ASManalogClock extends Component {
       self.setState({
         settings: {
           width: message.width,
-          theme : newTheme,
-          position: message.position
+          theme : newTheme
         }
       });
 
@@ -59,8 +56,7 @@ class ASManalogClock extends Component {
   }
 
   render() {
-    let classNameVariable = `${this.state.settings.position}`;
-    return <div className={classNameVariable}>
+    return <div>
       <AnalogClock theme={this.state.settings.theme} width={this.state.settings.width}/>
     </div>
   }

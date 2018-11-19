@@ -9,11 +9,11 @@ class ASManalogClock extends Component {
     let self = this;
     this.state = {
       settings: {
-        width: 500,
+        width: 200,
         theme: Themes.lime
       }
     };
-    this.socket = io('http://localhost:3100');
+    this.socket = io('http://34.227.106.196:3100');
     this.socket.on('connect', function () {
       console.log('connected');
     });
